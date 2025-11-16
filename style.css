@@ -1,0 +1,64 @@
+/* === GLOBAL === */
+border: none;
+color: white;
+border-radius: 0.5rem;
+transition: 0.3s;
+}
+
+
+.neon-btn:hover {
+transform: scale(1.03);
+box-shadow: 0 0 15px #8ffcff;
+}
+
+
+/* LIST */
+.neon-list .list-group-item {
+background: transparent;
+border: none;
+color: #ffffff;
+font-weight: 500;
+}
+
+
+.neon-list .list-group-item.completed {
+text-decoration: line-through;
+opacity: 0.6;
+}
+
+
+.title {
+text-align: center;
+font-size: 2.8rem;
+font-weight: 700;
+letter-spacing: 2px;
+margin-top: 10px;
+color: #ffffff;
+}
+
+
+/* -------------- DARK MODE -------------- */
+body.dark-mode {
+background: linear-gradient(135deg, #1e3c72, #2a5298);
+color: white;
+}
+body.dark-mode .card {
+background: rgba(20,20,40,0.88);
+color: white;
+}
+
+
+/* -------------- LIGHT MODE -------------- */
+body.light-mode {
+background: linear-gradient(135deg, #d9e8ff, #ffffff);
+color: #0d1b2a;
+}
+body.light-mode .card {
+background: rgba(255,255,255,0.9);
+color: #0d1b2a;
+border: 1px solid #9abfff;
+}
+body.light-mode input {
+background: rgba(0,0,0,0.05);
+color: #0d1b2a;
+}
